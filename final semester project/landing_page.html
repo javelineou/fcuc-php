@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Welcome!</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700' rel='stylesheet' type='text/css'>
+</head>
+<style>
+html{
+	background-image:url('backgrounds/landingbg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#main-text{
+	margin:100px 100px;
+	font-family:Lato;
+}
+p{
+	font-size: 20px;
+}
+#sign-up-btn{
+	background-color: white;
+	border: 1px solid #000000;
+	color: black;
+	padding: 15px 150px;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor:pointer;
+	font-family:Lato;
+	font-weight: bold;
+	transition-duration: 0.4s;
+}
+#sign-up-btn:hover{
+	background-color: #131820;
+	color: white;
+}
+</style>
+<body>
+<div id="main-text">
+<p>Mens sana in corpore sano.</p>
+<form action="signup_page.php" method="">
+<input type="submit" value="Sign Up" name="submit" id="sign-up-btn">
+</form>
+</div>
+</body>
+</html>
